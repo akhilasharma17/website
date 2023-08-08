@@ -1,0 +1,15 @@
+
+
+body {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+h6 {
+    color: rgb(222, 143, 91);
+}
+h2,h3 {
+    font-style: italic;
+}
+h1 {
+    font-family: "monospace", sans-serif;
+}
