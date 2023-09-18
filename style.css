@@ -13,6 +13,9 @@ h1 {
     padding-top: 30px;
     font-family: "monospace", sans-serif;
 }
+.image{
+    background-color: rgb(454, 231, 321)
+}
 /*navigation bar*/
     ul {
         list-style-type: none;
