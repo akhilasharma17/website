@@ -5,13 +5,23 @@ body {
     font-weight: bold;
     background-color: rgb(188, 220, 193);
 }
+#homeheader {
+    position: fixed;
+    color: rgb(28, 231, 21);
+    background-color:rgb(113, 64, 165);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 43%;
+    font-family:Verdana, Tahoma, sans-serif;
+}
 .header {
     position:fixed;
     color: rgb(28, 231, 21);
     background-color:rgb(113, 64, 165);
     width: 100%;
     padding-bottom: 10px;
-    padding-left: 40%;
+    padding-left: 38%;
+    font-family:Verdana, Tahoma, sans-serif;
 }
 /*navigation bar*/
     ul {
@@ -56,12 +66,14 @@ body {
     h3{
         padding-top:100px;
     }
+    h7 {
+        font-weight: bold;
+    }
+    .image{
+        display: inline;
+    }
     #logic-memory {
         padding-top: 100px;
-    }
-    .image {
-        background-color: rgb(454, 231, 321);
-        padding: 10px;
     }
     p {
         background-color: rgb(132, 175, 157);
