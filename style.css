@@ -4,36 +4,28 @@ body {
     font-size: 0.9em;
     font-weight: bold;
     background-color: rgb(188, 220, 193);
-}
-#homeheader {
-    position: fixed;
-    color: rgb(28, 231, 21);
-    background-color:rgb(113, 64, 165);
-    width: 100%;
-    padding-bottom: 10px;
-    padding-left: 43%;
-    font-family:Verdana, Tahoma, sans-serif;
+    text-align: center;
 }
 .header {
     position:fixed;
+    text-align: center;
     color: rgb(28, 231, 21);
     background-color:rgb(113, 64, 165);
     width: 100%;
     padding-bottom: 10px;
-    padding-left: 38%;
     font-family:Verdana, Tahoma, sans-serif;
 }
-/*navigation bar*/
+/*navigation bar and image links*/
     ul {
         list-style-type: none;
         margin: auto;
-        padding: 0; 
         padding-left: 30%;
         overflow: hidden;
         background-color: rgb(132, 175, 157);
         position: fixed;
         top: 0;
         width: 100%;
+        text-align: center;
     }
     li {
         float: left;
@@ -42,7 +34,7 @@ body {
     a {
         display: block;
         padding: 20px;
-        background-color: rgb(132, 175, 157);
+        background-color: rgb(175, 132, 132);
     }
     li a:hover {
         background-color: rgb(106, 138, 127)
@@ -60,20 +52,22 @@ body {
     h2 {
         padding-top: 100px;
         padding-left: 20px;
+        padding: 5px;
         font-style: italic;
         text-decoration: underline;
+        background-color: rgb(146, 127, 167);
     }
     h3{
         padding-top:100px;
     }
-    h7 {
+    h6{
         font-weight: bold;
     }
     .image{
         display: inline;
     }
-    #logic-memory {
-        padding-top: 100px;
+    .top-item{
+        padding-top:100px;
     }
     p {
         background-color: rgb(132, 175, 157);
