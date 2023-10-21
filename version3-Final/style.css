@@ -1,0 +1,225 @@
+
+/*title and body for each page*/
+body {
+    font-size: 1.08em;
+    font-weight: bold;
+    background-color: rgb(169, 241, 212);
+    text-align: center;
+}
+.header {
+    position: fixed;
+    text-align: center;
+    color: rgb(28, 231, 21);
+    background-color:rgb(113, 64, 165);
+    width: 100%;
+    padding: 35px 0px 15px 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+    z-index: 2; 
+    margin-top: 30px;
+}
+/*grid layout for 2 columns*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    row-gap: 100px;
+  }
+
+div.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #2196F3;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+div.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #2196F3;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+/*grid layout for 3 columns*/
+.grid1-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    row-gap: 100px;
+  }
+
+div.grid1-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #2196F3;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+div.grid1-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #2196F3;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  div.grid1-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #2196F3;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+/*navigation bar and image links*/
+    ul {
+        list-style-type: none;
+        margin: -0.2%;
+        overflow: hidden;
+        background-color: rgb(117, 161, 143);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        padding:0;
+        z-index:3;
+    }
+    li {
+        float: left;
+        width:24.8%;
+        border-right: 2px solid rgb(55, 156, 52);
+        font-family:'Trebuchet MS', Arial, sans-serif;
+    }
+    a {
+        display: block;
+        padding: 20px;   
+        color: black;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(39, 131, 88);
+    }
+    li:last-child {
+        border-right: none;
+    }
+    .navbar {
+      background-color:rgb(49, 179, 71);
+    }
+
+
+/*game images + links*/ 
+    h1 {
+        text-align: center;
+        margin-left: -3.5px;
+    }
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 25px;
+        font-style: italic;
+        font-size: 1.5em;
+        text-decoration: underline;
+        background-color: rgb(115, 71, 161);
+        margin:-0.2%;
+    }
+    h4 {
+        background-color:  rgb(49, 179, 71);
+        padding: 30px;
+        text-decoration: underline;
+        margin: -0.2%;
+        font-size: 23px;
+    }
+    footer{
+        font-weight: bold;
+    }
+    p {
+        background-color: rgb(49, 179, 71);
+        padding: 30px;
+        margin: -0.2%;
+        font-size: 0.6em;
+    }
+    #welcome-heading {
+        padding: 20px 0px 10px 0px;
+        font-family: "cambria", sans-serif;
+        background-color: rgb(50, 47, 179);
+        z-index: 1;
+        min-width: 300px;
+        margin: -0.2%;
+    }
+    #welcome-paragraph {
+        margin-top: -2.8%;
+        background-color: rgb(50, 47, 179);
+        font-size: 1em;
+    }
+    .image {
+        transition: transform .2s;
+        margin: -0.2%;
+        z-index: -1;
+        background-color: rgb(49, 179, 71);
+    }
+    .image:hover { 
+        transform: scale(1.05);
+        z-index: -1;
+        background-color: rgb(39, 128, 54)
+    }
+    .top-item{
+        padding-top:130px;
+    }
+
+
+/*image gallery*/  
+div.gallery {
+  margin: 5px;
+  border: 3px solid #58cc49;
+  float: left;
+  padding-inline: 1.1%;
+  width: 29.5%;
+  height: 1050px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+
+div.gallery:hover {
+  border: 4px solid rgb(49, 179, 71);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+}

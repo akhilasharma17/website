@@ -8,27 +8,29 @@
         <title>Home</title>
     </head>
     <body>
-        <h1 class="header">Home</h1>
+    <div class="grid-container">
+        <h1 class="header" class="grid-item" >Home</h1>
         <!--navigation bar-->     
         <ul>  
             <!--<li id="logo"><a href="index.html"><img src="favicon.png" alt="Home" width=30%></a></li>-->
             <li><a href="index.html">Home</a></li>
-            <li><a href="logic-memory.html">Logic & Strategy</a></li>
+            <li><a href="logic-memory.html">Logic & Memory</a></li>
             <li><a href="puzzle-card.html">Puzzle & Card</a></li>
             <li><a href="number-word.html">Number & Word</a></li>
         </ul>
 
     <!--introduction-->
-        <h1 class="top-item" id="welcome">Welcome</h1>
+        <h1 class="top-item" class="grid-item" id="welcome">Welcome</h1>
         <p id="welcome-paragraph">This website is a gateway to many different realms of fun. 
             The website consists of a variety of games from the categories Logic, Memory, Puzzle, Cards, Number, and Word.
             To find games scroll down, and to play them click on the underlined links or images.</p>
 
     <!--logic and memory section-->
-        <h1 id="logic-memory">Logic & Memory</h1>
-            <h2>Logic games</h2>
+
                 <!--connect four game-->
-                <div class = "logic">
+                <div class = "logic" class="grid-item">
+                    <h1 id="logic-memory">Logic & Memory</h1>
+                    <h2>Logic games</h2>
                     <h4> Connect four </h4>
                     <!--link to game by clicking on image-->
                     <a href="https://boardgames.io/en/connect4" target="_blank">
@@ -45,8 +47,9 @@
                     </p>
                 </div>
                 <!--end of connect four game section-->
-            <h2>Memory games</h2>
-                <div class = "memory">
+
+                <div class = "memory" class="grid-item">
+                    <h2>Memory games</h2>
                     <h4>Memory match</h4>
                     <!--link to game by clicking on image-->
                     <a href="https://www.memozor.com/memory-games/big-or-giant/symbols" target="_blank">
@@ -68,9 +71,10 @@
         </a>
 
     <!--puzzle and card section-->
-        <h1 id="puzzle-card">Puzzle & Card</h1>  
-            <h2>Puzzles</h2>
-                <div class = "puzzle">
+
+                <div class = "puzzle" class="grid-item">
+                    <h1 id="puzzle-card">Puzzle & Card</h1>  
+                    <h2>Puzzles</h2>
                     <h4>Jigsaw Puzzle</h4>
                     <!--link to game by clicking on image-->
                     <a href="https://www.jigsawplanet.com/" target="_blank">
@@ -85,8 +89,9 @@
                         Whether enjoyed solo or as a shared project with friends and family, jigsaw puzzles continue to be a beloved and enduring pastime that fosters creativity, concentration, and a sense of achievement.
                     </p>
                 </div>
-            <h2>Card games</h2>
-            <div class = "card">
+
+            <div class = "card" class="grid-item">
+                <h2>Card games</h2>
                 <h4>Solitare</h4>
                 <!--link to game by clicking on image-->
                 <a href="https://solitaired.com/" target="_blank">
@@ -106,9 +111,9 @@
         </a>
 
     <!--number and word section-->
-        <h1 id="number-word">Number & Word</h1>
-            <h2>Number games</h2>
-                <div class = "number">
+                <div class = "number" class="grid-item">
+                    <h1 id="number-word">Number & Word</h1>
+                    <h2>Number games</h2>
                     <h4>Sudoku</h4>
                     <!--link to game by clicking on image-->
                     <a href="https://sudoku.com/" target="_blank">
@@ -121,8 +126,8 @@
                         It's a great way to unwind, relieve stress, and keep the mind sharp, making it a beloved pastime for individuals seeking both relaxation and mental stimulation.
                     </p>
                 </div>
-            <h2>Word games</h2>
-                <div class = "word">
+                <div class = "word" class="grid-item">
+                    <h2>Word games</h2>
                     <h4>Scrabble</h4>
                     <!--link to game by clicking on image-->
                     <a href="https://playscrabble.com/" target="_blank">
@@ -139,6 +144,7 @@
         <a href="number-word.html">
             <h4>Click here to see more Number & Word games</h4>
         </a>
+    </div>
 
         <h6>Disclaimer: The content on this website includes images and links which are sourced from various online platforms and websites. All rights go to original creators of this content.</h6>
     </body>
